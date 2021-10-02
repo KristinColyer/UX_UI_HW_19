@@ -286,13 +286,13 @@ article.accordion section
 article.accordion section h2
 {
 	position: absolute;
-	font-size: 1.1em;
+	font-size: 1em;
   font-family: Gothic A1;
 	font-weight: bold;
   bottom: 5em;
 	width: 12em;
 	height: 2em;
-	top: 12em;
+	top: 14em;
 	left: -5;
 	text-indent: 1em;
 	padding: 0;
