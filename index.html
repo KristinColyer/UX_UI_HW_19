@@ -2,12 +2,97 @@
 <html>
 <head>
   <link href="css/index.css" type="text/css" rel="stylesheet">
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    
+  </a>
+</div>
 </head>
 <body>
-  <section 
-  <nav class="w3-bar w3-black">
-    <a href="#" class="w3-bar-item w3-button">Home</a>
-    <a href="#" class="w3-bar-item w3-button">Diet</a>
-    <a href="#" class="w3-bar-item w3-button">Habitat</a>
-  </nav>
+  <img id=logo src="images/logo.png">
+  <h1>
+    <span>Hello!</span>
+    <span> I am a </span>
+    <span> UX designer</span>
+    <span>based in San Antonio.</span>
+    <span>I create effective designs,</span>
+    <span>that meets the priorities of</span>
+    <span>my client and the users.</span>
+  </h1>
+
+  <grid-container class="projects">
+    <h2 id="ph">PROJECTS</h2>
+    <div class="projectGrid">
+    <div class="project1">
+      <div><h3 id="p1h">Mobile App Design</h3></div>
+      <div><p id="p1p">Tastee is an inovative app that transforms the meal planning experience.</p></div>
+      <div> <img id="p1i" src="images/project1.png" alt="project 1" width="309px" height="294px"></div>
+    </div>
+    <div class="project2">
+      <div><h3 id="p2h">Non-Profit Redesign</h3></div>
+      <div><p id="p2p">National Veterans Outreach Prgram is an organization dedicated to helping veterans transition back to civilian life.</p></div>
+      <div> <img id="p2i" src="images/project2.png" alt="project 1" width="358px" height="248x"></div>
+      <div><h3 id="p3h">Government Agency Redesign</h3></div>
+      </div>
+      <div class="project2">
+      <div><p id="p3p">The Department of Labor (DOL) fosters and promotes the welfare of the job seekers, wage earners, and retirees of the United States.</p></div>
+      <div> <img id="p3i" src="images/projects3.png" alt="project 1" width="358x" height="247px"></div>
+      </div>
+    </div>
+  </grid-container>
+
+  <section class="myUxSkills">
+    <h1 id="sh">MY UX SKILLS</h1>
   </section>
+  
+  <article class="accordion">
+
+    <section id="acc1">
+      <h2><a href="#acc1">Research</a></h2>
+      <p>I collect data through competitor analysis, surveys, usability testing, and card sorting. I then analyze the findings to form new insights. These insights guide every decision I make throughout the design.</p>
+    </section>
+    
+    <section id="acc2">
+      <h2><a href="#acc2">User Empathy</a></h2>
+      <p>I utilize interviews, surveys, user-personas, and empathy maps to understand the user's pain points. By empathizing I can create a solution-based design that increases user retention and reaches a larger demographic. 
+  </p>
+    </section>
+
+    <section id="acc3">
+      <h2><a href="#acc3">Visual Communication </a></h2>
+      <p>I focus on creating an intuitive design through visual communication. I apply my knowledge of layout, color, typography, icons, images, and design theory. This practice creates affordances that improve learnability and gives the user a delightful experience. 
+      </p>
+    </section>
+  
+  </article>
+
+  
+  <footer class="footer-distributed">
+
+    <div class="footer-right">
+
+    </a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a class="link-1" href="#">+1 (210) 758-8040</a>
+
+        <a href="#">kristincolyer2000@gmail.com</a>
+      </p>
+
+      <p>Kristin Colyer &copy; 2021</p>
+    </div>
+
+  </footer>
